@@ -16,9 +16,9 @@ function displayProducts(products) {
                 <img src="${product.image}" alt="product: ${product.title}" width="250" loading="lazy" />
             </div>
             <div class="product-info">
-                <h5 class="categories">${product.category}</h5>
-                <h4 class="title">${product.title}</h4>
-                <h3 class="price"><span>US$ ${product.price}</span></h3>
+                <h2 class="categories">${product.category}</h2>
+                <h3 class="title">${product.title}</h3>
+                <h4 class="price"><span>US$ ${product.price}</span></h4>
                 <button>Add to bag</button>
             </div>
         `;

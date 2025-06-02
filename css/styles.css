@@ -80,7 +80,7 @@ header .logo a {
 }
 
 header .logo .blue-dot {
-  background-color: #33c6dd;
+  background-color: #614dc9;
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -115,7 +115,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #33c6dd;
+  color: #614dc9;
 }
 
 header nav ul li:last-of-type a {
@@ -190,7 +190,7 @@ picture img {
   width: 220px;
   max-width: 100%;
   border-radius: 92px;
-  background-color: #33c6dd;
+  background-color: #614dc9;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -203,9 +203,9 @@ picture img {
 }
 
 .hero-content button:hover {
-  color: #33c6dd;
+  color: #614dc9;
   background-color: #fff;
-  border: 1px solid #33c6dd;
+  border: 1px solid #614dc9;
 }
 
 section.country-bar {
@@ -236,7 +236,7 @@ section.best-sellers h1 {
 
 section.best-sellers hr {
   border: none;
-  border-top: 5px solid #33c6dd;
+  border-top: 5px solid #614dc9;
   width: 66px;
 }
 
@@ -281,7 +281,7 @@ section.best-sellers .product-slider .product .product-picture {
 
 section.best-sellers .product-slider .product.new::before {
   content: "New";
-  background-color: #614dc9;
+  background-color: 614dc9;
   position: absolute;
   top: 12px;
   right: 12px;
@@ -293,7 +293,7 @@ section.best-sellers .product-slider .product.new::before {
   text-align: center;
   padding: 4px 15px;
   border-radius: 40px;
-  background-color: #614dc9;
+  background-color: 614dc9;
 }
 
 section.best-sellers .product-slider .product .product-info {
@@ -301,7 +301,7 @@ section.best-sellers .product-slider .product .product-info {
 }
 
 section.best-sellers .product-slider .product .product-info .categories {
-  color: #33c6dd;
+  color: #614dc9;
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.35px;
@@ -344,7 +344,7 @@ section.best-sellers
   .product-info
   .price
   .original-price {
-  color: #9b9b9b;
+  color: rgb(81, 81, 81);
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0.4px;
@@ -367,8 +367,8 @@ section.best-sellers .product-slider .product .product-info button {
 }
 
 section.best-sellers .product-slider .product:hover .product-info button {
-  background-color: #33c6dd;
-  border: 1px solid #33c6dd;
+  background-color: #614dc9;
+  border: 1px solid #614dc9;
   color: white;
 }
 
@@ -424,9 +424,9 @@ section.newsletter form button {
   max-width: 20%;
   box-sizing: border-box;
   border-radius: 0 60px 60px 0;
-  background-color: #614dc9;
-  border: 1px solid #614dc9;
-  color: #fff;
+  background-color: 614dc9;
+  border: 1px solid 614dc9;
+  color: #232323;
   font-size: 14px;
   letter-spacing: 0.35px;
   line-height: 21px;
@@ -435,8 +435,8 @@ section.newsletter form button {
 }
 
 section.newsletter form button:hover {
-  color: #614dc9;
-  border: 1px solid #614dc9;
+  color: 614dc9;
+  border: 1px solid 614dc9;
   background-color: #fff;
   border: 1px solid #3e3e3e;
 }
@@ -468,7 +468,7 @@ footer .bottom-nav ul li a {
 }
 
 footer .bottom-nav ul li a:hover {
-  color: #33c6dd;
+  color: #614dc9;
 }
 
 footer .bottom-nav ul li.list-title {
@@ -699,7 +699,7 @@ footer .copyright-text {
   }
 
   section.best-sellers hr {
-    border-top: 4px solid #33c6dd;
+    border-top: 4px solid #614dc9;
     width: 40px;
   }
 
