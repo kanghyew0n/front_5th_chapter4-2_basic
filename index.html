@@ -7,6 +7,25 @@
     <meta name="description" content="Home - Tech Shop" />
     <title>Home - Tech Shop</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="preload"
+      as="image"
+      href="images/Hero_Desktop.webp"
+      media="(min-width: 960px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="images/Hero_Tablet.webp"
+      media="(min-width: 576px) and (max-width: 959px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="images/Hero_Mobile.webp"
+      media="(max-width: 575px)"
+    />
+
     <!-- <link rel="stylesheet" type="text/css" href="/css/slick.css"/> -->
     <!-- Google Tag Manager -->
     <script>
@@ -78,9 +97,25 @@
     </header>
 
     <section class="hero">
-      <img class="desktop" src="images/Hero_Desktop.webp" alt="VR Headsets" />
-      <img class="mobile" src="images/Hero_Mobile.webp" alt="VR Headsets" />
-      <img class="tablet" src="images/Hero_Tablet.webp" alt="VR Headsets" />
+      <picture>
+        <source
+          srcset="/images/Hero_Desktop.webp"
+          media="(min-width: 960px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/Hero_Tablet.webp"
+          media="(min-width: 576px)"
+          type="image/webp"
+        />
+        <img
+          src="/images/Hero_Mobile.webp"
+          alt="Hero Image"
+          fetchpriority="high"
+          decoding="async"
+          loading="eager"
+        />
+      </picture>
 
       <div class="hero-content">
         <div class="container">
@@ -103,7 +138,11 @@
         <div class="container">
           <div class="product new">
             <div class="product-picture">
-              <img src="images/vr1.webp" alt="product: Penom Case" />
+              <img
+                src="images/vr1.webp"
+                alt="product: Penom Case"
+                loading="lazy"
+              />
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Apple</h5>
@@ -120,6 +159,7 @@
               <img
                 src="images/vr2.webp"
                 alt="product: Noise Cancelling Headphone"
+                loading="lazy"
               />
             </div>
             <div class="product-info">
@@ -137,6 +177,7 @@
               <img
                 src="images/vr3.webp"
                 alt="product: Canon Digital SLR EOS Rebel T6"
+                loading="lazy"
               />
             </div>
             <div class="product-info">
