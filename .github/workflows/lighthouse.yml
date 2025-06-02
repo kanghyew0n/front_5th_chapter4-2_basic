@@ -9,7 +9,7 @@ on:
       url:
         description: "URL to run Lighthouse on"
         required: false
-        default: "http://localhost:8080"
+        default: "https://front-5th-chapter4-2-basic-kappa.vercel.app/"
 
 permissions:
   issues: write
@@ -39,7 +39,7 @@ jobs:
         id: lighthouse
         continue-on-error: true
         run: |
-          URL="${{ github.event.inputs.url || 'http://localhost:8080' }}"
+          URL="${{ github.event.inputs.url || 'https://front-5th-chapter4-2-basic-kappa.vercel.app/' }}"
           lhci autorun --collect.url=$URL
 
       - name: Create GitHub Issue with Results
